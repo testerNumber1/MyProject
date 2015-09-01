@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "UpFile";
+}
+
+<h2>UpFile</h2>
+@using (Html.BeginForm("UpFile", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input name="Name" type="text" />
+    <br/>
+    <input name="Age" type="text" />
+    <input name="file" type="file"/>
+    <br/>
+    <input type="submit"/>
+}
