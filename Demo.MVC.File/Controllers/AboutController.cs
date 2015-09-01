@@ -13,5 +13,9 @@ namespace Demo.MVC.File.Controllers
         {
             return View();
         }
+        public ActionResult Contact()
+        {
+            return View();
+        }
     }
 }
